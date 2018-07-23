@@ -3,11 +3,12 @@ version: 2
 defaults: &defaults
   working_directory: /go/src/github.com/cosmos/cosmos-sdk
   docker:
-    - image: circleci/golang:1.10.0
+    - image: circleci/golang:1.10.3
   environment:
     GOBIN: /tmp/workspace/bin
 
 jobs:
+
   setup_dependencies:
     <<: *defaults
     steps:
@@ -28,16 +29,11 @@ jobs:
             export PATH="$GOBIN:$PATH"
             make get_vendor_deps
       - run:
-          name: linter
-          command: |
-            export PATH="$GOBIN:$PATH"
-            go get -u github.com/tendermint/lint/golint
-            go get -u github.com/alecthomas/gometalinter
-      - run:
           name: binaries
           command: |
             export PATH="$GOBIN:$PATH"
             make install
+            make install_examples
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
@@ -54,7 +50,7 @@ jobs:
 
   lint:
     <<: *defaults
-    parallelism: 4
+    parallelism: 1
     steps:
       - attach_workspace:
           at: /tmp/workspace
@@ -62,15 +58,20 @@ jobs:
           key: v1-pkg-cache
       - restore_cache:
           key: v1-tree-{{ .Environment.CIRCLE_SHA1 }}
+      - run:
+          name: Get metalinter
+          command: |
+            export PATH="$GOBIN:$PATH"
+            make get_dev_tools
       - run:
           name: Lint source
           command: |
             export PATH="$GOBIN:$PATH"
-            gometalinter --disable-all --enable='golint' --vendor ./...
-  
-  test_unit:
+            make test_lint
+
+  test_cli:
     <<: *defaults
-    parallelism: 4
+    parallelism: 1
     steps:
       - attach_workspace:
           at: /tmp/workspace
@@ -79,11 +80,28 @@ jobs:
       - restore_cache:
           key: v1-tree-{{ .Environment.CIRCLE_SHA1 }}
       - run:
-          name: Test unit
+          name: Test cli
           command: |
             export PATH="$GOBIN:$PATH"
-            make test_unit
-  
+            make test_cli
+
+  test_sim:
+    <<: *defaults
+    parallelism: 1
+    steps:
+      - attach_workspace:
+          at: /tmp/workspace
+      - restore_cache:
+          key: v1-pkg-cache
+      - restore_cache:
+          key: v1-tree-{{ .Environment.CIRCLE_SHA1 }}
+      - run:
+          name: Test simulation
+          command: |
+            export PATH="$GOBIN:$PATH"
+            export GAIA_SIMULATION_SEED=1531897442166404087
+            make test_sim
+
   test_cover:
     <<: *defaults
     parallelism: 4
@@ -94,6 +112,7 @@ jobs:
           key: v1-pkg-cache
       - restore_cache:
           key: v1-tree-{{ .Environment.CIRCLE_SHA1 }}
+      - run: mkdir -p /tmp/logs
       - run:
           name: Run tests
           command: |
@@ -101,16 +120,18 @@ jobs:
             make install
             for pkg in $(go list github.com/cosmos/cosmos-sdk/... | grep -v /vendor/ | grep -v github.com/cosmos/cosmos-sdk/cmd/gaia/cli_test | circleci tests split --split-by=timings); do
               id=$(basename "$pkg")
-
-              go test -timeout 5m -race -coverprofile=/tmp/workspace/profiles/$id.out -covermode=atomic "$pkg"
+              GOCACHE=off go test -v -timeout 8m -race -coverprofile=/tmp/workspace/profiles/$id.out -covermode=atomic "$pkg" | tee "/tmp/logs/$id-$RANDOM.log"
             done
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
             - "profiles/*"
+      - store_artifacts:
+          path: /tmp/logs
 
   upload_coverage:
     <<: *defaults
+    parallelism: 1
     steps:
       - attach_workspace:
           at: /tmp/workspace
@@ -137,7 +158,10 @@ workflows:
       - lint:
           requires:
             - setup_dependencies
-      - test_unit:
+      - test_cli:
+          requires:
+            - setup_dependencies
+      - test_sim:
           requires:
             - setup_dependencies
       - test_cover:

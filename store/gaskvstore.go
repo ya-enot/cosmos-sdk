@@ -1,6 +1,8 @@
 package store
 
 import (
+	"io"
+
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
@@ -65,6 +67,11 @@ func (gi *gasKVStore) Delete(key []byte) {
 	gi.parent.Delete(key)
 }
 
+// Implements KVStore
+func (gi *gasKVStore) Prefix(prefix []byte) KVStore {
+	return prefixStore{gi, prefix}
+}
+
 // Implements KVStore.
 func (gi *gasKVStore) Iterator(start, end []byte) sdk.Iterator {
 	return gi.iterator(start, end, true)
@@ -76,18 +83,13 @@ func (gi *gasKVStore) ReverseIterator(start, end []byte) sdk.Iterator {
 }
 
 // Implements KVStore.
-func (gi *gasKVStore) SubspaceIterator(prefix []byte) sdk.Iterator {
-	return gi.iterator(prefix, sdk.PrefixEndBytes(prefix), true)
-}
-
-// Implements KVStore.
-func (gi *gasKVStore) ReverseSubspaceIterator(prefix []byte) sdk.Iterator {
-	return gi.iterator(prefix, sdk.PrefixEndBytes(prefix), false)
-}
-
-// Implements KVStore.
 func (gi *gasKVStore) CacheWrap() sdk.CacheWrap {
-	panic("you cannot CacheWrap a GasKVStore")
+	panic("cannot CacheWrap a GasKVStore")
+}
+
+// CacheWrapWithTrace implements the KVStore interface.
+func (gi *gasKVStore) CacheWrapWithTrace(_ io.Writer, _ TraceContext) CacheWrap {
+	panic("cannot CacheWrapWithTrace a GasKVStore")
 }
 
 func (gi *gasKVStore) iterator(start, end []byte, ascending bool) sdk.Iterator {
