@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"testing"
 
-	sdk "github.com/cosmos/cosmos-sdk"
+	sdk "github.com/ya-enot/cosmos-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cmn "github.com/tendermint/tmlibs/common"
+	cmn "github.com/ya-enot/tmlibs/common"
 )
 
 const genesisFilepath = "./testdata/genesis.json"

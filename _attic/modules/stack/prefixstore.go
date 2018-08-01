@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/cosmos/cosmos-sdk/state"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 type prefixStore struct {

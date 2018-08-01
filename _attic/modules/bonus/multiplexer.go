@@ -3,13 +3,13 @@ package bonus
 import (
 	"strings"
 
-	abci "github.com/tendermint/abci/types"
-	wire "github.com/tendermint/go-wire"
-	"github.com/tendermint/go-wire/data"
+	abci "github.com/ya-enot/abci/types"
+	wire "github.com/ya-enot/go-wire"
+	"github.com/ya-enot/go-wire/data"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/stack"
-	"github.com/cosmos/cosmos-sdk/state"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/stack"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 //nolint

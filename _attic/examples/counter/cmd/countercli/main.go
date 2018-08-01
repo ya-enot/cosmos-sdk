@@ -5,21 +5,21 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/tmlibs/cli"
+	"github.com/ya-enot/tmlibs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/client/commands/commits"
-	"github.com/cosmos/cosmos-sdk/client/commands/keys"
-	"github.com/cosmos/cosmos-sdk/client/commands/proxy"
-	"github.com/cosmos/cosmos-sdk/client/commands/query"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands/commits"
+	"github.com/ya-enot/cosmos-sdk/client/commands/keys"
+	"github.com/ya-enot/cosmos-sdk/client/commands/proxy"
+	"github.com/ya-enot/cosmos-sdk/client/commands/query"
 
-	txcmd "github.com/cosmos/cosmos-sdk/client/commands/txs"
-	bcount "github.com/cosmos/cosmos-sdk/examples/counter/cmd/countercli/commands"
-	authcmd "github.com/cosmos/cosmos-sdk/modules/auth/commands"
-	basecmd "github.com/cosmos/cosmos-sdk/modules/base/commands"
-	coincmd "github.com/cosmos/cosmos-sdk/modules/coin/commands"
-	feecmd "github.com/cosmos/cosmos-sdk/modules/fee/commands"
-	noncecmd "github.com/cosmos/cosmos-sdk/modules/nonce/commands"
+	txcmd "github.com/ya-enot/cosmos-sdk/client/commands/txs"
+	bcount "github.com/ya-enot/cosmos-sdk/examples/counter/cmd/countercli/commands"
+	authcmd "github.com/ya-enot/cosmos-sdk/modules/auth/commands"
+	basecmd "github.com/ya-enot/cosmos-sdk/modules/base/commands"
+	coincmd "github.com/ya-enot/cosmos-sdk/modules/coin/commands"
+	feecmd "github.com/ya-enot/cosmos-sdk/modules/fee/commands"
+	noncecmd "github.com/ya-enot/cosmos-sdk/modules/nonce/commands"
 )
 
 // CounterCli represents the base command when called without any subcommands

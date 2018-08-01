@@ -3,9 +3,9 @@ package store
 import (
 	"sync"
 
-	"github.com/tendermint/iavl"
-	cmn "github.com/tendermint/tmlibs/common"
-	dbm "github.com/tendermint/tmlibs/db"
+	"github.com/ya-enot/iavl"
+	cmn "github.com/ya-enot/tmlibs/common"
+	dbm "github.com/ya-enot/tmlibs/db"
 )
 
 // iavlStoreLoader contains info on what store we want to load from

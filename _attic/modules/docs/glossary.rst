@@ -18,8 +18,8 @@ store), and it must have a deterministic action. The transaction is the
 main piece of one request.
 
 We currently make heavy use of
-`go-wire <https://github.com/tendermint/go-wire>`__ and
-`data <https://github.com/tendermint/go-wire/tree/master/data>`__ to
+`go-wire <https://github.com/ya-enot/go-wire>`__ and
+`data <https://github.com/ya-enot/go-wire/tree/master/data>`__ to
 provide binary and json encodings and decodings for ``struct`` or
 interface\ ``objects. Here, encoding and decoding operations are designed to operate with interfaces nested any amount times (like an onion!). There is one public``\ TxMapper\`
 in the basecoin root package, and all modules can register their own
@@ -74,7 +74,7 @@ Isolation
 One of the main arguments for blockchain is security. So while we
 encourage the use of third-party modules, all developers must be
 vigilant against security holes. If you use the
-`stack <https://github.com/cosmos/cosmos-sdk/tree/master/stack>`__
+`stack <https://github.com/ya-enot/cosmos-sdk/tree/master/stack>`__
 package, it will provide two different types of compartmentalization
 security.
 
@@ -97,7 +97,7 @@ been fulfilled. For example the sender of funds must have signed, or 2
 out of 3 multi-signature actors must have signed a joint account. To
 prevent the forgery of account signatures from unintended modules each
 permission is associated with the module that granted it (in this case
-`auth <https://github.com/cosmos/cosmos-sdk/tree/master/modules/auth>`__),
+`auth <https://github.com/ya-enot/cosmos-sdk/tree/master/modules/auth>`__),
 and if a module tries to add a permission for another module, it will
 panic. There is also protection if a module creates a brand new fake
 context to trick the downstream modules. Each context enforces the rules
@@ -238,7 +238,7 @@ One example of this is the counter app, which can optionally accept a
 payment. If the transaction contains a payment, it must create a SendTx
 and pass this to the dispatcher to deduct the amount from the proper
 account. Take a look at `counter
-plugin <https://github.com/cosmos/cosmos-sdk/blob/master/docs/guide/counter/plugins/counter/counter.go>`__\ for
+plugin <https://github.com/ya-enot/cosmos-sdk/blob/master/docs/guide/counter/plugins/counter/counter.go>`__\ for
 a better idea.
 
 Permissions

@@ -98,7 +98,7 @@ and configure the parameters required for your application.
 The Cosmos SDK will help us create our own
 currency, extensible with plugins. Writing plugins is out of scope of
 this article, but you can read about it
-`here <https://github.com/cosmos/cosmos-sdk/blob/master/docs/guide/basecoin-plugins.md>`__.
+`here <https://github.com/ya-enot/cosmos-sdk/blob/master/docs/guide/basecoin-plugins.md>`__.
 
 Kubernetes DSL (Domain Specific Language) can be difficult for the
 beginner to grasp. Fortunately, we will need to change only a small

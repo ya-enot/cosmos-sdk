@@ -1,9 +1,9 @@
 package rest
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/modules/coin"
-	"github.com/tendermint/go-crypto/keys"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/modules/coin"
+	"github.com/ya-enot/go-crypto/keys"
 )
 
 type CreateKeyRequest struct {

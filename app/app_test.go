@@ -8,12 +8,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cosmos/cosmos-sdk/store"
-	"github.com/cosmos/cosmos-sdk/types"
-	abci "github.com/tendermint/abci/types"
-	"github.com/tendermint/go-crypto"
-	cmn "github.com/tendermint/tmlibs/common"
-	dbm "github.com/tendermint/tmlibs/db"
+	"github.com/ya-enot/cosmos-sdk/store"
+	"github.com/ya-enot/cosmos-sdk/types"
+	abci "github.com/ya-enot/abci/types"
+	"github.com/ya-enot/go-crypto"
+	cmn "github.com/ya-enot/tmlibs/common"
+	dbm "github.com/ya-enot/tmlibs/db"
 )
 
 // A mock transaction to update a validator's voting power.

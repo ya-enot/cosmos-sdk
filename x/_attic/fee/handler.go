@@ -1,11 +1,11 @@
 package fee
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/modules/coin"
-	"github.com/cosmos/cosmos-sdk/stack"
-	"github.com/cosmos/cosmos-sdk/state"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/modules/coin"
+	"github.com/ya-enot/cosmos-sdk/stack"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 // NameFee - namespace for the fee module

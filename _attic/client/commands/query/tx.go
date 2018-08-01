@@ -4,11 +4,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	wire "github.com/tendermint/go-wire"
-	"github.com/tendermint/tendermint/types"
+	wire "github.com/ya-enot/go-wire"
+	"github.com/ya-enot/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
 )
 
 // TxQueryCmd - CLI command to query a transaction with proof

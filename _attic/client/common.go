@@ -3,14 +3,14 @@ package client
 import (
 	"errors"
 
-	"github.com/tendermint/light-client/certifiers"
-	certclient "github.com/tendermint/light-client/certifiers/client"
-	certerr "github.com/tendermint/light-client/certifiers/errors"
-	"github.com/tendermint/light-client/certifiers/files"
+	"github.com/ya-enot/light-client/certifiers"
+	certclient "github.com/ya-enot/light-client/certifiers/client"
+	certerr "github.com/ya-enot/light-client/certifiers/errors"
+	"github.com/ya-enot/light-client/certifiers/files"
 
-	"github.com/tendermint/light-client/proofs"
+	"github.com/ya-enot/light-client/proofs"
 
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
+	rpcclient "github.com/ya-enot/tendermint/rpc/client"
 )
 
 // GetNode prepares a simple rpc.Client for the given endpoint

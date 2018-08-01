@@ -4,10 +4,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	txcmd "github.com/cosmos/cosmos-sdk/client/commands/txs"
-	"github.com/cosmos/cosmos-sdk/examples/counter/plugins/counter"
-	"github.com/cosmos/cosmos-sdk/modules/coin"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	txcmd "github.com/ya-enot/cosmos-sdk/client/commands/txs"
+	"github.com/ya-enot/cosmos-sdk/examples/counter/plugins/counter"
+	"github.com/ya-enot/cosmos-sdk/modules/coin"
 )
 
 //CounterTxCmd is the CLI command to execute the counter

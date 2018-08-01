@@ -6,11 +6,11 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
 
-	keys "github.com/tendermint/go-crypto/keys"
-	"github.com/tendermint/tmlibs/common"
+	keys "github.com/ya-enot/go-crypto/keys"
+	"github.com/ya-enot/tmlibs/common"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	keycmd "github.com/cosmos/cosmos-sdk/client/commands/keys"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	keycmd "github.com/ya-enot/cosmos-sdk/client/commands/keys"
 )
 
 type Keys struct {

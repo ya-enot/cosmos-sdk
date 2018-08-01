@@ -2,7 +2,7 @@ package query
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/cosmos/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
 )
 
 // nolint

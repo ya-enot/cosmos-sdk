@@ -5,9 +5,9 @@ package client
 import (
 	"path/filepath"
 
-	"github.com/tendermint/go-crypto/keys"
-	"github.com/tendermint/go-crypto/keys/cryptostore"
-	"github.com/tendermint/go-crypto/keys/storage/filestorage"
+	"github.com/ya-enot/go-crypto/keys"
+	"github.com/ya-enot/go-crypto/keys/cryptostore"
+	"github.com/ya-enot/go-crypto/keys/storage/filestorage"
 )
 
 // KeySubdir is the directory name under root where we store the keys

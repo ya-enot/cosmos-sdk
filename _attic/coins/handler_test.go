@@ -7,14 +7,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	crypto "github.com/tendermint/go-crypto"
-	"github.com/tendermint/tmlibs/log"
+	crypto "github.com/ya-enot/go-crypto"
+	"github.com/ya-enot/tmlibs/log"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/stack"
-	"github.com/cosmos/cosmos-sdk/state"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/x/auth"
+	"github.com/ya-enot/cosmos-sdk/stack"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 // this makes sure that txs are rejected with invalid data or permissions

@@ -4,7 +4,7 @@ package bank
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/errors"
 )
 
 const (

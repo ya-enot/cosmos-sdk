@@ -3,8 +3,8 @@ package bank
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	crypto "github.com/tendermint/go-crypto"
+	sdk "github.com/ya-enot/cosmos-sdk/types"
+	crypto "github.com/ya-enot/go-crypto"
 )
 
 // CoinStore manages transfers between accounts

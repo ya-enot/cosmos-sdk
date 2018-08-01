@@ -1,16 +1,16 @@
 package coin
 
 import (
-	"github.com/tendermint/go-wire/data"
-	"github.com/tendermint/tmlibs/log"
+	"github.com/ya-enot/go-wire/data"
+	"github.com/ya-enot/tmlibs/log"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/store"
-	"github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	// "github.com/cosmos/cosmos-sdk/x/ibc"
-	// "github.com/cosmos/cosmos-sdk/stack"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/store"
+	"github.com/ya-enot/cosmos-sdk/types"
+	"github.com/ya-enot/cosmos-sdk/x/auth"
+	// "github.com/ya-enot/cosmos-sdk/x/ibc"
+	// "github.com/ya-enot/cosmos-sdk/stack"
 )
 
 const (

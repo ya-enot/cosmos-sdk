@@ -10,12 +10,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	rest "github.com/cosmos/cosmos-sdk/client/rest"
-	coinrest "github.com/cosmos/cosmos-sdk/modules/coin/rest"
-	noncerest "github.com/cosmos/cosmos-sdk/modules/nonce/rest"
-	rolerest "github.com/cosmos/cosmos-sdk/modules/roles/rest"
-	"github.com/tendermint/tmlibs/cli"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	rest "github.com/ya-enot/cosmos-sdk/client/rest"
+	coinrest "github.com/ya-enot/cosmos-sdk/modules/coin/rest"
+	noncerest "github.com/ya-enot/cosmos-sdk/modules/nonce/rest"
+	rolerest "github.com/ya-enot/cosmos-sdk/modules/roles/rest"
+	"github.com/ya-enot/tmlibs/cli"
 )
 
 var srvCli = &cobra.Command{

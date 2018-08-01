@@ -6,11 +6,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cmn "github.com/tendermint/tmlibs/common"
-	"github.com/tendermint/tmlibs/log"
+	cmn "github.com/ya-enot/tmlibs/common"
+	"github.com/ya-enot/tmlibs/log"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
 )
 
 // RootCmd represents the base command when called without any subcommands

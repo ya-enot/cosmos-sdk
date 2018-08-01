@@ -3,12 +3,12 @@ package coin
 import (
 	"testing"
 
-	cmn "github.com/tendermint/tmlibs/common"
-	"github.com/tendermint/tmlibs/log"
+	cmn "github.com/ya-enot/tmlibs/common"
+	"github.com/ya-enot/tmlibs/log"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/stack"
-	"github.com/cosmos/cosmos-sdk/state"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/stack"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 func makeHandler() stack.Dispatchable {

@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"strings"
 
-	sdk "github.com/cosmos/cosmos-sdk"
+	sdk "github.com/ya-enot/cosmos-sdk"
 	"github.com/pkg/errors"
 
-	cmn "github.com/tendermint/tmlibs/common"
+	cmn "github.com/ya-enot/tmlibs/common"
 )
 
 // KeyDelimiter is used to separate module and key in

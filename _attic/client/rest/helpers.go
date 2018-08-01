@@ -1,14 +1,14 @@
 package rest
 
 import (
-	"github.com/tendermint/go-crypto/keys"
-	wire "github.com/tendermint/go-wire"
+	"github.com/ya-enot/go-crypto/keys"
+	wire "github.com/ya-enot/go-wire"
 
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
+	ctypes "github.com/ya-enot/tendermint/rpc/core/types"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	keycmd "github.com/cosmos/cosmos-sdk/client/commands/keys"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	keycmd "github.com/ya-enot/cosmos-sdk/client/commands/keys"
 )
 
 // PostTx is same as a tx

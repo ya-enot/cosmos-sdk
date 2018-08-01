@@ -4,10 +4,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	txcmd "github.com/cosmos/cosmos-sdk/client/commands/txs"
-	"github.com/cosmos/cosmos-sdk/x/coin"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	txcmd "github.com/ya-enot/cosmos-sdk/client/commands/txs"
+	"github.com/ya-enot/cosmos-sdk/x/coin"
 )
 
 // SendTxCmd is CLI command to send tokens between basecoin accounts

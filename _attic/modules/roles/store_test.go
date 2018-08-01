@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/modules/roles"
-	"github.com/cosmos/cosmos-sdk/stack"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/modules/roles"
+	"github.com/ya-enot/cosmos-sdk/stack"
 )
 
 func TestRole(t *testing.T) {

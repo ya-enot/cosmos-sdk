@@ -1,7 +1,7 @@
 package bank
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/ya-enot/cosmos-sdk/types"
 )
 
 func TransferHandlerFn(key sdk.SubstoreKey, newAccStore func(sdk.KVStore) sdk.AccountStore) sdk.Handler {

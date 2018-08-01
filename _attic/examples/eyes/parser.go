@@ -1,6 +1,6 @@
 package eyes
 
-import sdk "github.com/cosmos/cosmos-sdk"
+import sdk "github.com/ya-enot/cosmos-sdk"
 
 // Parser converts bytes into a tx struct
 type Parser struct{}

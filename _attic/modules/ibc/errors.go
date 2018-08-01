@@ -3,8 +3,8 @@ package ibc
 import (
 	"fmt"
 
-	abci "github.com/tendermint/abci/types"
-	"github.com/cosmos/cosmos-sdk/errors"
+	abci "github.com/ya-enot/abci/types"
+	"github.com/ya-enot/cosmos-sdk/errors"
 )
 
 // nolint

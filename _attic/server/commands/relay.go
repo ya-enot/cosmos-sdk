@@ -10,17 +10,17 @@ package commands
 // 	"github.com/spf13/cobra"
 
 // 	// 	"github.com/spf13/viper"
-// 	// 	"github.com/tendermint/tmlibs/cli"
-// 	// 	"github.com/tendermint/tmlibs/log"
+// 	// 	"github.com/ya-enot/tmlibs/cli"
+// 	// 	"github.com/ya-enot/tmlibs/log"
 
-// 	"github.com/tendermint/go-wire"
-// 	"github.com/tendermint/iavl"
-// 	cmn "github.com/tendermint/tmlibs/common"
+// 	"github.com/ya-enot/go-wire"
+// 	"github.com/ya-enot/iavl"
+// 	cmn "github.com/ya-enot/tmlibs/common"
 
-// 	"github.com/cosmos/cosmos-sdk/plugins/ibc"
-// 	"github.com/cosmos/cosmos-sdk/types"
-// 	"github.com/tendermint/tendermint/rpc/client"
-// 	tmtypes "github.com/tendermint/tendermint/types"
+// 	"github.com/ya-enot/cosmos-sdk/plugins/ibc"
+// 	"github.com/ya-enot/cosmos-sdk/types"
+// 	"github.com/ya-enot/tendermint/rpc/client"
+// 	tmtypes "github.com/ya-enot/tendermint/types"
 // )
 
 // var RelayCmd = &cobra.Command{

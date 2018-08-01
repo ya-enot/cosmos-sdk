@@ -1,11 +1,11 @@
 package stack
 
 import (
-	abci "github.com/tendermint/abci/types"
-	"github.com/tendermint/tmlibs/log"
+	abci "github.com/ya-enot/abci/types"
+	"github.com/ya-enot/tmlibs/log"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/state"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 // middleware lets us wrap a whole stack up into one Handler

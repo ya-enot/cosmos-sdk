@@ -5,9 +5,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cosmos/cosmos-sdk/types"
-	crypto "github.com/tendermint/go-crypto"
-	"github.com/tendermint/go-wire/data"
+	"github.com/ya-enot/cosmos-sdk/types"
+	crypto "github.com/ya-enot/go-crypto"
+	"github.com/ya-enot/go-wire/data"
 )
 
 /**** code to parse accounts from genesis docs ***/

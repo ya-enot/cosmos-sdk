@@ -7,12 +7,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/iavl"
-	db "github.com/tendermint/tmlibs/db"
-	"github.com/tendermint/tmlibs/log"
+	"github.com/ya-enot/iavl"
+	db "github.com/ya-enot/tmlibs/db"
+	"github.com/ya-enot/tmlibs/log"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/state"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 func makeState() state.SimpleDB {

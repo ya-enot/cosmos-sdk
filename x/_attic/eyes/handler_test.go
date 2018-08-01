@@ -6,11 +6,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	wire "github.com/tendermint/go-wire"
+	wire "github.com/ya-enot/go-wire"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/state"
-	"github.com/cosmos/cosmos-sdk/util"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/state"
+	"github.com/ya-enot/cosmos-sdk/util"
 )
 
 func TestHandler(t *testing.T) {

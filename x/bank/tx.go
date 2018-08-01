@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	crypto "github.com/tendermint/go-crypto"
+	crypto "github.com/ya-enot/go-crypto"
 
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/ya-enot/cosmos-sdk/types"
 )
 
 // SendMsg - high level transaction of the coin module

@@ -6,16 +6,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/tendermint/abci/types"
-	"github.com/tendermint/go-wire"
-	"github.com/tendermint/tmlibs/log"
+	abci "github.com/ya-enot/abci/types"
+	"github.com/ya-enot/go-wire"
+	"github.com/ya-enot/tmlibs/log"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/app"
-	"github.com/cosmos/cosmos-sdk/modules/auth"
-	"github.com/cosmos/cosmos-sdk/modules/base"
-	"github.com/cosmos/cosmos-sdk/modules/coin"
-	"github.com/cosmos/cosmos-sdk/modules/nonce"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/app"
+	"github.com/ya-enot/cosmos-sdk/modules/auth"
+	"github.com/ya-enot/cosmos-sdk/modules/base"
+	"github.com/ya-enot/cosmos-sdk/modules/coin"
+	"github.com/ya-enot/cosmos-sdk/modules/nonce"
 )
 
 func TestCounterPlugin(t *testing.T) {

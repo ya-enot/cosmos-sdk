@@ -3,9 +3,9 @@ package util
 import (
 	"time"
 
-	abci "github.com/tendermint/abci/types"
+	abci "github.com/ya-enot/abci/types"
 
-	sdk "github.com/cosmos/cosmos-sdk"
+	sdk "github.com/ya-enot/cosmos-sdk"
 )
 
 // Logger writes out log messages on every request

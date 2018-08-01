@@ -1,10 +1,10 @@
 package roles
 
 import (
-	"github.com/tendermint/go-wire/data"
+	"github.com/ya-enot/go-wire/data"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/errors"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/errors"
 )
 
 var (

@@ -8,10 +8,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	txcmd "github.com/cosmos/cosmos-sdk/client/commands/txs"
-	"github.com/cosmos/cosmos-sdk/modules/ibc"
-	"github.com/tendermint/light-client/certifiers"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	txcmd "github.com/ya-enot/cosmos-sdk/client/commands/txs"
+	"github.com/ya-enot/cosmos-sdk/modules/ibc"
+	"github.com/ya-enot/light-client/certifiers"
 )
 
 // RegisterChainTxCmd is CLI command to register a new chain for ibc

@@ -4,11 +4,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/client/commands/query"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands/query"
 
-	"github.com/cosmos/cosmos-sdk/examples/counter/plugins/counter"
-	"github.com/cosmos/cosmos-sdk/stack"
+	"github.com/ya-enot/cosmos-sdk/examples/counter/plugins/counter"
+	"github.com/ya-enot/cosmos-sdk/stack"
 )
 
 //CounterQueryCmd - CLI command to query the counter state

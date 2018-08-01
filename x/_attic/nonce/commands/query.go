@@ -7,12 +7,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/client/commands/query"
-	"github.com/cosmos/cosmos-sdk/modules/nonce"
-	"github.com/cosmos/cosmos-sdk/stack"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/client"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands/query"
+	"github.com/ya-enot/cosmos-sdk/modules/nonce"
+	"github.com/ya-enot/cosmos-sdk/stack"
 )
 
 // NonceQueryCmd - command to query an nonce account

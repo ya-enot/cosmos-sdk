@@ -3,9 +3,9 @@ package auth
 import (
 	"errors"
 
-	crypto "github.com/tendermint/go-crypto"
+	crypto "github.com/ya-enot/go-crypto"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/ya-enot/cosmos-sdk/types"
 )
 
 //-----------------------------------------------------------

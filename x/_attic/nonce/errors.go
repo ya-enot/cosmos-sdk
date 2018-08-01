@@ -4,9 +4,9 @@ package nonce
 import (
 	"fmt"
 
-	abci "github.com/tendermint/abci/types"
+	abci "github.com/ya-enot/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/errors"
 )
 
 var (

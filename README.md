@@ -2,18 +2,18 @@
 
 ![banner](docs/graphics/cosmos-sdk-image.png)
 
-[![version](https://img.shields.io/github/tag/cosmos/cosmos-sdk.svg)](https://github.com/cosmos/cosmos-sdk/releases/latest)
-[![API Reference](https://godoc.org/github.com/cosmos/cosmos-sdk?status.svg
-)](https://godoc.org/github.com/cosmos/cosmos-sdk)
+[![version](https://img.shields.io/github/tag/ya-enot/cosmos-sdk.svg)](https://github.com/ya-enot/cosmos-sdk/releases/latest)
+[![API Reference](https://godoc.org/github.com/ya-enot/cosmos-sdk?status.svg
+)](https://godoc.org/github.com/ya-enot/cosmos-sdk)
 [![Rocket.Chat](https://demo.rocket.chat/images/join-chat.svg)](https://cosmos.rocket.chat/)
-[![license](https://img.shields.io/github/license/cosmos/cosmos-sdk.svg)](https://github.com/cosmos/cosmos-sdk/blob/master/LICENSE)
-[![LoC](https://tokei.rs/b1/github/cosmos/cosmos-sdk)](https://github.com/cosmos/cosmos-sdk)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cosmos/cosmos-sdk)](https://goreportcard.com/report/github.com/cosmos/cosmos-sdk)
+[![license](https://img.shields.io/github/license/ya-enot/cosmos-sdk.svg)](https://github.com/ya-enot/cosmos-sdk/blob/master/LICENSE)
+[![LoC](https://tokei.rs/b1/github/ya-enot/cosmos-sdk)](https://github.com/ya-enot/cosmos-sdk)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ya-enot/cosmos-sdk)](https://goreportcard.com/report/github.com/ya-enot/cosmos-sdk)
 
 Branch    | Tests | Coverage
 ----------|-------|---------
-develop   | [![CircleCI](https://circleci.com/gh/cosmos/cosmos-sdk/tree/develop.svg?style=shield)](https://circleci.com/gh/cosmos/cosmos-sdk/tree/develop) | [![codecov](https://codecov.io/gh/cosmos/cosmos-sdk/branch/develop/graph/badge.svg)](https://codecov.io/gh/cosmos/cosmos-sdk)
-master    | [![CircleCI](https://circleci.com/gh/cosmos/cosmos-sdk/tree/master.svg?style=shield)](https://circleci.com/gh/cosmos/cosmos-sdk/tree/master) | [![codecov](https://codecov.io/gh/cosmos/cosmos-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/cosmos/cosmos-sdk)
+develop   | [![CircleCI](https://circleci.com/gh/ya-enot/cosmos-sdk/tree/develop.svg?style=shield)](https://circleci.com/gh/ya-enot/cosmos-sdk/tree/develop) | [![codecov](https://codecov.io/gh/ya-enot/cosmos-sdk/branch/develop/graph/badge.svg)](https://codecov.io/gh/ya-enot/cosmos-sdk)
+master    | [![CircleCI](https://circleci.com/gh/ya-enot/cosmos-sdk/tree/master.svg?style=shield)](https://circleci.com/gh/ya-enot/cosmos-sdk/tree/master) | [![codecov](https://codecov.io/gh/ya-enot/cosmos-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/ya-enot/cosmos-sdk)
 
 
 !!!!!!!!!!!!!!!!!!!!!
@@ -28,7 +28,7 @@ master    | [![CircleCI](https://circleci.com/gh/cosmos/cosmos-sdk/tree/master.s
 
 The Cosmos SDK is the middleware platform that the [Cosmos Hub](https://cosmos.network) is constructed from. The Hub is a blockchain (or, internet of blockchains) in which the Atom supply resides. The Atoms supply is defined at genesis and can change based on the rules of the Hub.
 
-Under the hood, the Cosmos SDK is an [ABCI application](https://github.com/tendermint/abci) designed to be used with the [Tendermint consensus engine](https://tendermint.com/) to form a Proof-of-Stake cryptocurrency. It also provides a general purpose framework
+Under the hood, the Cosmos SDK is an [ABCI application](https://github.com/ya-enot/abci) designed to be used with the [Tendermint consensus engine](https://tendermint.com/) to form a Proof-of-Stake cryptocurrency. It also provides a general purpose framework
 for extending the feature-set of the cryptocurrency by implementing plugins.
 
 This SDK affords you all the tools you need to rapidly develop
@@ -68,7 +68,7 @@ To deploy a testnet, see our [repository of deployment tools](https://github.com
 The basic concept for this SDK comes from years of web development. A number of
 patterns have arisen in that realm of software which enable people to build remote
 servers with APIs remarkably quickly and with high stability. The
-[ABCI](https://github.com/tendermint/abci) application interface is similar to
+[ABCI](https://github.com/ya-enot/abci) application interface is similar to
 a web API (`DeliverTx` is like POST and `Query` is like GET while `SetOption` is like
 the admin playing with the config file). Here are some patterns that might be
 useful:

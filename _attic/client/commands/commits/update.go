@@ -6,9 +6,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/tendermint/light-client/certifiers"
+	"github.com/ya-enot/light-client/certifiers"
 
-	"github.com/cosmos/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
 )
 
 var updateCmd = &cobra.Command{

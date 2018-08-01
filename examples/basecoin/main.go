@@ -7,10 +7,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/store"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/tendermint/abci/server"
-	"github.com/tendermint/go-wire"
-	cmn "github.com/tendermint/tmlibs/common"
-	dbm "github.com/tendermint/tmlibs/db"
+	"github.com/ya-enot/abci/server"
+	"github.com/ya-enot/go-wire"
+	cmn "github.com/ya-enot/tmlibs/common"
+	dbm "github.com/ya-enot/tmlibs/db"
 
 	bcm "github.com/cosmos/cosmos-sdk/examples/basecoin/types"
 )

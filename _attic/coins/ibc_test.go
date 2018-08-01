@@ -5,13 +5,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/ibc"
-	"github.com/cosmos/cosmos-sdk/stack"
-	"github.com/cosmos/cosmos-sdk/state"
-	wire "github.com/tendermint/go-wire"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/x/auth"
+	"github.com/ya-enot/cosmos-sdk/x/ibc"
+	"github.com/ya-enot/cosmos-sdk/stack"
+	"github.com/ya-enot/cosmos-sdk/state"
+	wire "github.com/ya-enot/go-wire"
 )
 
 // TODO: other test making sure tx is output on send, balance is updated

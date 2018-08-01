@@ -4,10 +4,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/client/commands/query"
-	"github.com/cosmos/cosmos-sdk/modules/roles"
-	"github.com/cosmos/cosmos-sdk/stack"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands/query"
+	"github.com/ya-enot/cosmos-sdk/modules/roles"
+	"github.com/ya-enot/cosmos-sdk/stack"
 )
 
 // RoleQueryCmd - command to query a role

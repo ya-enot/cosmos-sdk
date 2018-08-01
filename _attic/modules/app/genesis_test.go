@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tmlibs/log"
+	"github.com/ya-enot/tmlibs/log"
 
-	"github.com/cosmos/cosmos-sdk/genesis"
-	"github.com/cosmos/cosmos-sdk/modules/coin"
+	"github.com/ya-enot/cosmos-sdk/genesis"
+	"github.com/ya-enot/cosmos-sdk/modules/coin"
 )
 
 const genesisFilepath = "./testdata/genesis.json"

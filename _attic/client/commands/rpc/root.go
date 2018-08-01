@@ -5,11 +5,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/go-wire/data"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
+	"github.com/ya-enot/go-wire/data"
+	rpcclient "github.com/ya-enot/tendermint/rpc/client"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
 )
 
 const (

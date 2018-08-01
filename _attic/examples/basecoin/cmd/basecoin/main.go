@@ -4,20 +4,20 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/tendermint/tmlibs/cli"
+	"github.com/ya-enot/tmlibs/cli"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	client "github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/modules/auth"
-	"github.com/cosmos/cosmos-sdk/modules/base"
-	"github.com/cosmos/cosmos-sdk/modules/coin"
-	"github.com/cosmos/cosmos-sdk/modules/eyes"
-	"github.com/cosmos/cosmos-sdk/modules/fee"
-	"github.com/cosmos/cosmos-sdk/modules/ibc"
-	"github.com/cosmos/cosmos-sdk/modules/nonce"
-	"github.com/cosmos/cosmos-sdk/modules/roles"
-	"github.com/cosmos/cosmos-sdk/server/commands"
-	"github.com/cosmos/cosmos-sdk/stack"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	client "github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/modules/auth"
+	"github.com/ya-enot/cosmos-sdk/modules/base"
+	"github.com/ya-enot/cosmos-sdk/modules/coin"
+	"github.com/ya-enot/cosmos-sdk/modules/eyes"
+	"github.com/ya-enot/cosmos-sdk/modules/fee"
+	"github.com/ya-enot/cosmos-sdk/modules/ibc"
+	"github.com/ya-enot/cosmos-sdk/modules/nonce"
+	"github.com/ya-enot/cosmos-sdk/modules/roles"
+	"github.com/ya-enot/cosmos-sdk/server/commands"
+	"github.com/ya-enot/cosmos-sdk/stack"
 )
 
 // RootCmd is the entry point for this binary

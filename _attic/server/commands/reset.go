@@ -3,7 +3,7 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	tcmd "github.com/tendermint/tendermint/cmd/tendermint/commands"
+	tcmd "github.com/ya-enot/tendermint/cmd/tendermint/commands"
 )
 
 // UnsafeResetAllCmd - extension of the tendermint command, resets initialization

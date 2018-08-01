@@ -3,9 +3,9 @@ package stack
 import (
 	"math/rand"
 
-	"github.com/tendermint/tmlibs/log"
+	"github.com/ya-enot/tmlibs/log"
 
-	sdk "github.com/cosmos/cosmos-sdk"
+	sdk "github.com/ya-enot/cosmos-sdk"
 )
 
 type naiveContext struct {

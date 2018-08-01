@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	dbm "github.com/tendermint/tmlibs/db"
+	dbm "github.com/ya-enot/tmlibs/db"
 )
 
 // NOTE: These are implemented in cosmos-sdk/store.

@@ -6,14 +6,14 @@ import (
 
 	"github.com/gorilla/mux"
 
-	abci "github.com/tendermint/abci/types"
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/modules/base"
-	"github.com/cosmos/cosmos-sdk/modules/nonce"
-	"github.com/cosmos/cosmos-sdk/modules/roles"
-	"github.com/tendermint/tmlibs/common"
+	abci "github.com/ya-enot/abci/types"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/modules/base"
+	"github.com/ya-enot/cosmos-sdk/modules/nonce"
+	"github.com/ya-enot/cosmos-sdk/modules/roles"
+	"github.com/ya-enot/tmlibs/common"
 )
 
 // RoleInput encapsulates the fields needed to create a role

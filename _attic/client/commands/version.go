@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/ya-enot/cosmos-sdk/version"
 )
 
 // CommitHash should be filled by linker flags

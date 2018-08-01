@@ -1,6 +1,6 @@
 package types
 
-import crypto "github.com/tendermint/go-crypto"
+import crypto "github.com/ya-enot/go-crypto"
 
 type Msg interface {
 

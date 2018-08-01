@@ -1,11 +1,11 @@
 package bonus
 
 import (
-	abci "github.com/tendermint/abci/types"
+	abci "github.com/ya-enot/abci/types"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/state"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 //nolint

@@ -14,17 +14,17 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 
-	crypto "github.com/tendermint/go-crypto"
-	"github.com/tendermint/go-crypto/keys"
-	wire "github.com/tendermint/go-wire"
-	"github.com/tendermint/go-wire/data"
+	crypto "github.com/ya-enot/go-crypto"
+	"github.com/ya-enot/go-crypto/keys"
+	wire "github.com/ya-enot/go-wire"
+	"github.com/ya-enot/go-wire/data"
 
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
+	ctypes "github.com/ya-enot/tendermint/rpc/core/types"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	keycmd "github.com/cosmos/cosmos-sdk/client/commands/keys"
-	"github.com/cosmos/cosmos-sdk/modules/auth"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	keycmd "github.com/ya-enot/cosmos-sdk/client/commands/keys"
+	"github.com/ya-enot/cosmos-sdk/modules/auth"
 )
 
 // Validatable represents anything that can be Validated

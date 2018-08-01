@@ -5,8 +5,8 @@
 package app
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/store"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/store"
 )
 
 // AppHandler has no state for now, a more complex app could store state here

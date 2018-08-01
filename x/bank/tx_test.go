@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	crypto "github.com/tendermint/go-crypto"
+	crypto "github.com/ya-enot/go-crypto"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/ya-enot/cosmos-sdk/types"
 )
 
 func TestTxInputValidation(t *testing.T) {

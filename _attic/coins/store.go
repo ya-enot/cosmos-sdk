@@ -3,11 +3,11 @@ package coin
 import (
 	"fmt"
 
-	wire "github.com/tendermint/go-wire"
+	wire "github.com/ya-enot/go-wire"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/store"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/store"
 )
 
 // GetAccount - Get account from store and address

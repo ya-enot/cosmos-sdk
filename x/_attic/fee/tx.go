@@ -1,8 +1,8 @@
 package fee
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/modules/coin"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/modules/coin"
 )
 
 // nolint

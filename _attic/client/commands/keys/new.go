@@ -18,9 +18,9 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/tendermint/go-crypto/keys"
-	"github.com/tendermint/go-wire/data"
-	"github.com/tendermint/tmlibs/cli"
+	"github.com/ya-enot/go-crypto/keys"
+	"github.com/ya-enot/go-wire/data"
+	"github.com/ya-enot/tmlibs/cli"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

@@ -6,12 +6,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cmn "github.com/tendermint/tmlibs/common"
+	cmn "github.com/ya-enot/tmlibs/common"
 
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/client/commands/query"
-	"github.com/cosmos/cosmos-sdk/modules/eyes"
-	"github.com/cosmos/cosmos-sdk/util"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands/query"
+	"github.com/ya-enot/cosmos-sdk/modules/eyes"
+	"github.com/ya-enot/cosmos-sdk/util"
 )
 
 // EyesQueryCmd - command to query raw data

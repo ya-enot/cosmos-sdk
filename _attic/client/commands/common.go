@@ -12,15 +12,15 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/tendermint/light-client/certifiers"
-	"github.com/tendermint/tmlibs/cli"
-	cmn "github.com/tendermint/tmlibs/common"
+	"github.com/ya-enot/light-client/certifiers"
+	"github.com/ya-enot/tmlibs/cli"
+	cmn "github.com/ya-enot/tmlibs/common"
 
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
+	rpcclient "github.com/ya-enot/tendermint/rpc/client"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/modules/auth"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/client"
+	"github.com/ya-enot/cosmos-sdk/modules/auth"
 )
 
 var (

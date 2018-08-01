@@ -1,6 +1,6 @@
 package eyes
 
-import "github.com/tendermint/go-wire/data"
+import "github.com/ya-enot/go-wire/data"
 
 // Data is the struct we use to store in the merkle tree
 type Data struct {

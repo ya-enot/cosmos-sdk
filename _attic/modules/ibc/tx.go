@@ -1,11 +1,11 @@
 package ibc
 
 import (
-	"github.com/tendermint/go-wire/data"
-	"github.com/tendermint/iavl"
-	"github.com/tendermint/light-client/certifiers"
+	"github.com/ya-enot/go-wire/data"
+	"github.com/ya-enot/iavl"
+	"github.com/ya-enot/light-client/certifiers"
 
-	sdk "github.com/cosmos/cosmos-sdk"
+	sdk "github.com/ya-enot/cosmos-sdk"
 )
 
 // nolint

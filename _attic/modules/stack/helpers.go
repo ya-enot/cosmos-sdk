@@ -1,11 +1,11 @@
 package stack
 
 import (
-	"github.com/tendermint/go-wire/data"
+	"github.com/ya-enot/go-wire/data"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/state"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 //nolint

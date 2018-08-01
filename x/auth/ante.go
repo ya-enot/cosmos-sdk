@@ -1,7 +1,7 @@
 package auth
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/ya-enot/cosmos-sdk/types"
 )
 
 func NewAnteHandler(store sdk.AccountStore) sdk.AnteHandler {

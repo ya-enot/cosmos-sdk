@@ -2,7 +2,7 @@ package store
 
 import (
 	"bytes"
-	cmn "github.com/tendermint/tmlibs/common"
+	cmn "github.com/ya-enot/tmlibs/common"
 )
 
 // Gets the first item.

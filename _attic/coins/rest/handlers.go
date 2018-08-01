@@ -9,17 +9,17 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/spf13/viper"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/client/commands/query"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/base"
-	"github.com/cosmos/cosmos-sdk/x/coin"
-	"github.com/cosmos/cosmos-sdk/x/fee"
-	"github.com/cosmos/cosmos-sdk/x/nonce"
-	"github.com/cosmos/cosmos-sdk/stack"
-	"github.com/tendermint/tmlibs/common"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/client"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands/query"
+	"github.com/ya-enot/cosmos-sdk/x/auth"
+	"github.com/ya-enot/cosmos-sdk/x/base"
+	"github.com/ya-enot/cosmos-sdk/x/coin"
+	"github.com/ya-enot/cosmos-sdk/x/fee"
+	"github.com/ya-enot/cosmos-sdk/x/nonce"
+	"github.com/ya-enot/cosmos-sdk/stack"
+	"github.com/ya-enot/tmlibs/common"
 )
 
 // SendInput is the request to send an amount from one actor to another.

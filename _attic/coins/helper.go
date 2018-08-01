@@ -1,11 +1,11 @@
 package coin
 
 import (
-	crypto "github.com/tendermint/go-crypto"
-	"github.com/tendermint/go-wire/data"
+	crypto "github.com/ya-enot/go-crypto"
+	"github.com/ya-enot/go-wire/data"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/x/auth"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/x/auth"
 )
 
 // AccountWithKey is a helper for tests, that includes and account

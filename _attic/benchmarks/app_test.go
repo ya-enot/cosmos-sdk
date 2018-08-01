@@ -5,19 +5,19 @@ import (
 	"io/ioutil"
 	"testing"
 
-	wire "github.com/tendermint/go-wire"
-	cmn "github.com/tendermint/tmlibs/common"
-	"github.com/tendermint/tmlibs/log"
+	wire "github.com/ya-enot/go-wire"
+	cmn "github.com/ya-enot/tmlibs/common"
+	"github.com/ya-enot/tmlibs/log"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	sdkapp "github.com/cosmos/cosmos-sdk/app"
-	"github.com/cosmos/cosmos-sdk/modules/auth"
-	"github.com/cosmos/cosmos-sdk/modules/base"
-	"github.com/cosmos/cosmos-sdk/modules/coin"
-	"github.com/cosmos/cosmos-sdk/modules/fee"
-	"github.com/cosmos/cosmos-sdk/modules/nonce"
-	"github.com/cosmos/cosmos-sdk/modules/roles"
-	"github.com/cosmos/cosmos-sdk/stack"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	sdkapp "github.com/ya-enot/cosmos-sdk/app"
+	"github.com/ya-enot/cosmos-sdk/modules/auth"
+	"github.com/ya-enot/cosmos-sdk/modules/base"
+	"github.com/ya-enot/cosmos-sdk/modules/coin"
+	"github.com/ya-enot/cosmos-sdk/modules/fee"
+	"github.com/ya-enot/cosmos-sdk/modules/nonce"
+	"github.com/ya-enot/cosmos-sdk/modules/roles"
+	"github.com/ya-enot/cosmos-sdk/stack"
 )
 
 type BenchApp struct {

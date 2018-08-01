@@ -9,20 +9,20 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/tendermint/abci/server"
-	abci "github.com/tendermint/abci/types"
-	"github.com/tendermint/tmlibs/cli"
-	cmn "github.com/tendermint/tmlibs/common"
+	"github.com/ya-enot/abci/server"
+	abci "github.com/ya-enot/abci/types"
+	"github.com/ya-enot/tmlibs/cli"
+	cmn "github.com/ya-enot/tmlibs/common"
 
-	tcmd "github.com/tendermint/tendermint/cmd/tendermint/commands"
-	"github.com/tendermint/tendermint/node"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	tcmd "github.com/ya-enot/tendermint/cmd/tendermint/commands"
+	"github.com/ya-enot/tendermint/node"
+	"github.com/ya-enot/tendermint/proxy"
+	"github.com/ya-enot/tendermint/types"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/app"
-	"github.com/cosmos/cosmos-sdk/genesis"
-	"github.com/cosmos/cosmos-sdk/version"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/app"
+	"github.com/ya-enot/cosmos-sdk/genesis"
+	"github.com/ya-enot/cosmos-sdk/version"
 )
 
 // StartCmd - command to start running the abci app (and tendermint)!

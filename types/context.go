@@ -6,7 +6,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	abci "github.com/tendermint/abci/types"
+	abci "github.com/ya-enot/abci/types"
 )
 
 // TODO: Add a default logger.

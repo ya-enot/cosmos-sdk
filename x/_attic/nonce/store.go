@@ -3,10 +3,10 @@ package nonce
 import (
 	"fmt"
 
-	wire "github.com/tendermint/go-wire"
+	wire "github.com/ya-enot/go-wire"
 
-	"github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/state"
+	"github.com/ya-enot/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 func getSeq(store state.SimpleDB, key []byte) (seq uint32, err error) {

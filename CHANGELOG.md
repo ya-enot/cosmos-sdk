@@ -121,10 +121,10 @@ IMPROVEMENTS:
 - genesis file
   - you can define accounts with either address or pub_key
   - sorts coins for you, so no silent errors if not in alphabetical order
-- [light-client](https://github.com/tendermint/light-client) integration
+- [light-client](https://github.com/ya-enot/light-client) integration
   - no longer must you trust the node you connect to, prove everything!
   - new [basecli command](./cmd/basecli/README.md)
-  - integrated [key management](https://github.com/tendermint/go-crypto/blob/master/cmd/README.md), stored encrypted locally
+  - integrated [key management](https://github.com/ya-enot/go-crypto/blob/master/cmd/README.md), stored encrypted locally
   - tracks validator set changes and proves everything from one initial validator seed
   - `basecli proof state` gets complete proofs for any abci state
   - `basecli proof tx` gets complete proof where a tx was stored in the chain

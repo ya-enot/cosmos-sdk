@@ -15,12 +15,12 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/tendermint/light-client/certifiers"
-	"github.com/tendermint/light-client/certifiers/files"
-	"github.com/tendermint/tmlibs/cli"
-	cmn "github.com/tendermint/tmlibs/common"
+	"github.com/ya-enot/light-client/certifiers"
+	"github.com/ya-enot/light-client/certifiers/files"
+	"github.com/ya-enot/tmlibs/cli"
+	cmn "github.com/ya-enot/tmlibs/common"
 
-	"github.com/tendermint/tendermint/types"
+	"github.com/ya-enot/tendermint/types"
 )
 
 var (

@@ -1,7 +1,7 @@
 package errors
 
 import (
-	abci "github.com/tendermint/abci/types"
+	abci "github.com/ya-enot/abci/types"
 )
 
 func getABCIError(err error) (ABCIError, bool) {

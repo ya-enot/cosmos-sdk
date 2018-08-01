@@ -61,7 +61,7 @@ one higher than the last request or the request is rejected. This is
 implemented in ``modules.nonce.ReplayCheck``.
 
 If you're interested checkout this `design
-discussion <https://github.com/cosmos/cosmos-sdk/issues/160>`__.
+discussion <https://github.com/ya-enot/cosmos-sdk/issues/160>`__.
 
 Fees
 ~~~~

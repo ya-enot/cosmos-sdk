@@ -1,10 +1,10 @@
 package eyes
 
 import (
-	wire "github.com/tendermint/go-wire"
+	wire "github.com/ya-enot/go-wire"
 
-	eyesmod "github.com/cosmos/cosmos-sdk/modules/eyes"
-	"github.com/cosmos/cosmos-sdk/util"
+	eyesmod "github.com/ya-enot/cosmos-sdk/modules/eyes"
+	"github.com/ya-enot/cosmos-sdk/util"
 )
 
 // Tx is what is submitted to the chain.

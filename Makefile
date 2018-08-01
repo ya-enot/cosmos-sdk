@@ -8,7 +8,7 @@ EXAMPLES := dummy basecoin
 INSTALL_EXAMPLES := $(addprefix install_,${EXAMPLES})
 TEST_EXAMPLES := $(addprefix testex_,${EXAMPLES})
 
-LINKER_FLAGS:="-X github.com/cosmos/cosmos-sdk/client/commands.CommitHash=`git rev-parse --short HEAD`"
+LINKER_FLAGS:="-X github.com/ya-enot/cosmos-sdk/client/commands.CommitHash=`git rev-parse --short HEAD`"
 
 all: get_vendor_deps install test
 

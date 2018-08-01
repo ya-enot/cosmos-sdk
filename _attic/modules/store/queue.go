@@ -3,7 +3,7 @@ package store
 // import (
 // 	"encoding/binary"
 
-// 	sdk "github.com/cosmos/cosmos-sdk"
+// 	sdk "github.com/ya-enot/cosmos-sdk"
 // )
 
 // var (

@@ -3,12 +3,12 @@ package client
 import (
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/go-wire/data"
-	"github.com/tendermint/iavl"
-	"github.com/tendermint/light-client/certifiers"
-	certerr "github.com/tendermint/light-client/certifiers/errors"
+	"github.com/ya-enot/go-wire/data"
+	"github.com/ya-enot/iavl"
+	"github.com/ya-enot/light-client/certifiers"
+	certerr "github.com/ya-enot/light-client/certifiers/errors"
 
-	"github.com/tendermint/tendermint/rpc/client"
+	"github.com/ya-enot/tendermint/rpc/client"
 )
 
 // GetWithProof will query the key on the given node, and verify it has

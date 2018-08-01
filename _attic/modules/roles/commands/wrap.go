@@ -6,13 +6,13 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	abci "github.com/tendermint/abci/types"
-	cmn "github.com/tendermint/tmlibs/common"
+	abci "github.com/ya-enot/abci/types"
+	cmn "github.com/ya-enot/tmlibs/common"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	txcmd "github.com/cosmos/cosmos-sdk/client/commands/txs"
-	"github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/modules/roles"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	txcmd "github.com/ya-enot/cosmos-sdk/client/commands/txs"
+	"github.com/ya-enot/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/modules/roles"
 )
 
 // nolint

@@ -7,12 +7,12 @@ func main() {}
 // 	"time"
 
 // 	"github.com/gorilla/websocket"
-// 	"github.com/cosmos/cosmos-sdk/types"
-// 	wire "github.com/tendermint/go-wire"
-// 	_ "github.com/tendermint/tendermint/rpc/core/types" // Register RPCResponse > Result types
-// 	"github.com/tendermint/tendermint/rpc/lib/client"
-// 	"github.com/tendermint/tendermint/rpc/lib/types"
-// 	cmn "github.com/tendermint/tmlibs/common"
+// 	"github.com/ya-enot/cosmos-sdk/types"
+// 	wire "github.com/ya-enot/go-wire"
+// 	_ "github.com/ya-enot/tendermint/rpc/core/types" // Register RPCResponse > Result types
+// 	"github.com/ya-enot/tendermint/rpc/lib/client"
+// 	"github.com/ya-enot/tendermint/rpc/lib/types"
+// 	cmn "github.com/ya-enot/tmlibs/common"
 // )
 
 // func main() {

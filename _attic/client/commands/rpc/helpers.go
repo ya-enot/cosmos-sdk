@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cosmos/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
 
-	"github.com/tendermint/tendermint/rpc/client"
+	"github.com/ya-enot/tendermint/rpc/client"
 )
 
 var waitCmd = &cobra.Command{

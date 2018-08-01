@@ -16,7 +16,7 @@ package keys
 
 import (
 	"github.com/spf13/cobra"
-	keys "github.com/tendermint/go-crypto/keys"
+	keys "github.com/ya-enot/go-crypto/keys"
 )
 
 var (

@@ -1,12 +1,12 @@
 package ibc
 
 import (
-	wire "github.com/tendermint/go-wire"
-	"github.com/tendermint/light-client/certifiers"
-	certerr "github.com/tendermint/light-client/certifiers/errors"
+	wire "github.com/ya-enot/go-wire"
+	"github.com/ya-enot/light-client/certifiers"
+	certerr "github.com/ya-enot/light-client/certifiers/errors"
 
-	"github.com/cosmos/cosmos-sdk/stack"
-	"github.com/cosmos/cosmos-sdk/state"
+	"github.com/ya-enot/cosmos-sdk/stack"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 const (

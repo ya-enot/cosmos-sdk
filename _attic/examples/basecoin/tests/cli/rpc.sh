@@ -127,6 +127,6 @@ test03Waiting() {
 
 # load and run these tests with shunit2!
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )" #get this files directory
-CLI_DIR=$GOPATH/src/github.com/cosmos/cosmos-sdk/tests/cli
+CLI_DIR=$GOPATH/src/github.com/ya-enot/cosmos-sdk/tests/cli
 
 . $CLI_DIR/shunit2

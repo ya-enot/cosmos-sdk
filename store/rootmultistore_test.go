@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	dbm "github.com/tendermint/tmlibs/db"
-	"github.com/tendermint/tmlibs/merkle"
+	dbm "github.com/ya-enot/tmlibs/db"
+	"github.com/ya-enot/tmlibs/merkle"
 )
 
 func TestMultistoreCommitLoad(t *testing.T) {

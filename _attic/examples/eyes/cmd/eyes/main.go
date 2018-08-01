@@ -4,15 +4,15 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/tendermint/tmlibs/cli"
+	"github.com/ya-enot/tmlibs/cli"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	client "github.com/cosmos/cosmos-sdk/client/commands"
-	eyesmod "github.com/cosmos/cosmos-sdk/modules/eyes"
-	"github.com/cosmos/cosmos-sdk/server/commands"
-	"github.com/cosmos/cosmos-sdk/util"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	client "github.com/ya-enot/cosmos-sdk/client/commands"
+	eyesmod "github.com/ya-enot/cosmos-sdk/modules/eyes"
+	"github.com/ya-enot/cosmos-sdk/server/commands"
+	"github.com/ya-enot/cosmos-sdk/util"
 
-	"github.com/cosmos/cosmos-sdk/examples/eyes"
+	"github.com/ya-enot/cosmos-sdk/examples/eyes"
 )
 
 // RootCmd is the entry point for this binary

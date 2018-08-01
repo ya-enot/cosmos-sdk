@@ -11,11 +11,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 
-	keys "github.com/tendermint/go-crypto/keys"
-	data "github.com/tendermint/go-wire/data"
-	"github.com/tendermint/tmlibs/cli"
+	keys "github.com/ya-enot/go-crypto/keys"
+	data "github.com/ya-enot/go-wire/data"
+	"github.com/ya-enot/tmlibs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/ya-enot/cosmos-sdk/client"
 )
 
 const MinPassLength = 10

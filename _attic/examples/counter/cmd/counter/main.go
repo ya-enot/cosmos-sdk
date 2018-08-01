@@ -5,11 +5,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/tmlibs/cli"
+	"github.com/ya-enot/tmlibs/cli"
 
-	client "github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/examples/counter/plugins/counter"
-	"github.com/cosmos/cosmos-sdk/server/commands"
+	client "github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/examples/counter/plugins/counter"
+	"github.com/ya-enot/cosmos-sdk/server/commands"
 )
 
 // RootCmd is the entry point for this binary

@@ -1,7 +1,7 @@
 package types
 
 import (
-	crypto "github.com/tendermint/go-crypto"
+	crypto "github.com/ya-enot/go-crypto"
 )
 
 // Account is a standard account using a sequence number for replay protection

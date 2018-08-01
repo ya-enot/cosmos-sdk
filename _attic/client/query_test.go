@@ -8,18 +8,18 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/go-wire"
-	"github.com/tendermint/light-client/certifiers"
-	certclient "github.com/tendermint/light-client/certifiers/client"
-	"github.com/tendermint/tmlibs/log"
+	"github.com/ya-enot/go-wire"
+	"github.com/ya-enot/light-client/certifiers"
+	certclient "github.com/ya-enot/light-client/certifiers/client"
+	"github.com/ya-enot/tmlibs/log"
 
-	nm "github.com/tendermint/tendermint/node"
-	"github.com/tendermint/tendermint/rpc/client"
-	rpctest "github.com/tendermint/tendermint/rpc/test"
-	"github.com/tendermint/tendermint/types"
+	nm "github.com/ya-enot/tendermint/node"
+	"github.com/ya-enot/tendermint/rpc/client"
+	rpctest "github.com/ya-enot/tendermint/rpc/test"
+	"github.com/ya-enot/tendermint/types"
 
-	sdkapp "github.com/cosmos/cosmos-sdk/app"
-	"github.com/cosmos/cosmos-sdk/modules/eyes"
+	sdkapp "github.com/ya-enot/cosmos-sdk/app"
+	"github.com/ya-enot/cosmos-sdk/modules/eyes"
 )
 
 var node *nm.Node

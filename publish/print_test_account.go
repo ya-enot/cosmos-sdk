@@ -5,8 +5,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/tests"
-	"github.com/tendermint/go-wire"
+	"github.com/ya-enot/cosmos-sdk/tests"
+	"github.com/ya-enot/go-wire"
 )
 
 /*

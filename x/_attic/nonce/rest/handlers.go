@@ -8,16 +8,16 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/spf13/viper"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/client/commands/query"
-	"github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/modules/coin"
-	"github.com/cosmos/cosmos-sdk/modules/nonce"
-	"github.com/cosmos/cosmos-sdk/stack"
-	wire "github.com/tendermint/go-wire"
-	"github.com/tendermint/tmlibs/common"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/client"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands/query"
+	"github.com/ya-enot/cosmos-sdk/errors"
+	"github.com/ya-enot/cosmos-sdk/modules/coin"
+	"github.com/ya-enot/cosmos-sdk/modules/nonce"
+	"github.com/ya-enot/cosmos-sdk/stack"
+	wire "github.com/ya-enot/go-wire"
+	"github.com/ya-enot/tmlibs/common"
 )
 
 // doQueryNonce is the HTTP handlerfunc to query a nonce

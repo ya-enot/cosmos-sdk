@@ -10,8 +10,8 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/tendermint/go-crypto"
-	"github.com/tendermint/tmlibs/cli"
+	"github.com/ya-enot/go-crypto"
+	"github.com/ya-enot/tmlibs/cli"
 )
 
 //---------------------------------------------

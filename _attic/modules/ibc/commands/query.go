@@ -7,13 +7,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/client/commands/query"
-	"github.com/cosmos/cosmos-sdk/modules/ibc"
-	"github.com/cosmos/cosmos-sdk/stack"
-	wire "github.com/tendermint/go-wire"
-	"github.com/tendermint/go-wire/data"
-	"github.com/tendermint/iavl"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands/query"
+	"github.com/ya-enot/cosmos-sdk/modules/ibc"
+	"github.com/ya-enot/cosmos-sdk/stack"
+	wire "github.com/ya-enot/go-wire"
+	"github.com/ya-enot/go-wire/data"
+	"github.com/ya-enot/iavl"
 )
 
 // TODO: query seeds (register/update)

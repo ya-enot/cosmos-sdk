@@ -3,13 +3,13 @@ package ibc
 import (
 	"fmt"
 
-	"github.com/tendermint/iavl"
-	"github.com/tendermint/light-client/certifiers"
-	"github.com/tendermint/tmlibs/log"
+	"github.com/ya-enot/iavl"
+	"github.com/ya-enot/light-client/certifiers"
+	"github.com/ya-enot/tmlibs/log"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/stack"
-	"github.com/cosmos/cosmos-sdk/state"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/stack"
+	"github.com/ya-enot/cosmos-sdk/state"
 )
 
 // MockChain is used to simulate a chain for ibc tests.

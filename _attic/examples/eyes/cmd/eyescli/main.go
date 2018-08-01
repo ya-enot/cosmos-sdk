@@ -5,15 +5,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/tmlibs/cli"
+	"github.com/ya-enot/tmlibs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	"github.com/cosmos/cosmos-sdk/client/commands/auto"
-	"github.com/cosmos/cosmos-sdk/client/commands/commits"
-	"github.com/cosmos/cosmos-sdk/client/commands/query"
-	rpccmd "github.com/cosmos/cosmos-sdk/client/commands/rpc"
-	txcmd "github.com/cosmos/cosmos-sdk/client/commands/txs"
-	eyescmd "github.com/cosmos/cosmos-sdk/modules/eyes/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client/commands/auto"
+	"github.com/ya-enot/cosmos-sdk/client/commands/commits"
+	"github.com/ya-enot/cosmos-sdk/client/commands/query"
+	rpccmd "github.com/ya-enot/cosmos-sdk/client/commands/rpc"
+	txcmd "github.com/ya-enot/cosmos-sdk/client/commands/txs"
+	eyescmd "github.com/ya-enot/cosmos-sdk/modules/eyes/commands"
 )
 
 // EyesCli - main basecoin client command

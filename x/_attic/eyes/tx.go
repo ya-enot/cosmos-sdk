@@ -1,7 +1,7 @@
 package eyes
 
 import (
-	"github.com/tendermint/go-wire/data"
+	"github.com/ya-enot/go-wire/data"
 )
 
 // DO NOT USE THIS INTERFACE.

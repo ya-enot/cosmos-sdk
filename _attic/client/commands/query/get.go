@@ -8,15 +8,15 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 
-	wire "github.com/tendermint/go-wire"
-	"github.com/tendermint/go-wire/data"
-	"github.com/tendermint/iavl"
-	"github.com/tendermint/light-client/proofs"
+	wire "github.com/ya-enot/go-wire"
+	"github.com/ya-enot/go-wire/data"
+	"github.com/ya-enot/iavl"
+	"github.com/ya-enot/light-client/proofs"
 
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
+	rpcclient "github.com/ya-enot/tendermint/rpc/client"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/commands"
+	"github.com/ya-enot/cosmos-sdk/client"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
 )
 
 // GetParsed does most of the work of the query commands, but is quite

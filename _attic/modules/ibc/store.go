@@ -1,10 +1,10 @@
 package ibc
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/stack"
-	"github.com/cosmos/cosmos-sdk/state"
-	wire "github.com/tendermint/go-wire"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/stack"
+	"github.com/ya-enot/cosmos-sdk/state"
+	wire "github.com/ya-enot/go-wire"
 )
 
 // HandlerInfo is the global state of the ibc.Handler

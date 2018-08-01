@@ -6,9 +6,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	tcmd "github.com/tendermint/tendermint/cmd/tendermint/commands"
+	tcmd "github.com/ya-enot/tendermint/cmd/tendermint/commands"
 
-	"github.com/cosmos/cosmos-sdk/server/commands"
+	"github.com/ya-enot/cosmos-sdk/server/commands"
 )
 
 // InitCmd - node initialization command

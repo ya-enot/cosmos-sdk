@@ -5,10 +5,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	sdk "github.com/cosmos/cosmos-sdk"
-	"github.com/cosmos/cosmos-sdk/client/commands"
-	txcmd "github.com/cosmos/cosmos-sdk/client/commands/txs"
-	"github.com/cosmos/cosmos-sdk/modules/roles"
+	sdk "github.com/ya-enot/cosmos-sdk"
+	"github.com/ya-enot/cosmos-sdk/client/commands"
+	txcmd "github.com/ya-enot/cosmos-sdk/client/commands/txs"
+	"github.com/ya-enot/cosmos-sdk/modules/roles"
 )
 
 // CreateRoleTxCmd is CLI command to create a new role

@@ -1,7 +1,7 @@
 package auth
 
 import (
-	crypto "github.com/tendermint/go-crypto"
+	crypto "github.com/ya-enot/go-crypto"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

@@ -3,9 +3,9 @@ package store
 import (
 	"fmt"
 
-	"github.com/tendermint/go-wire"
-	dbm "github.com/tendermint/tmlibs/db"
-	"github.com/tendermint/tmlibs/merkle"
+	"github.com/ya-enot/go-wire"
+	dbm "github.com/ya-enot/tmlibs/db"
+	"github.com/ya-enot/tmlibs/merkle"
 	"golang.org/x/crypto/ripemd160"
 )
 

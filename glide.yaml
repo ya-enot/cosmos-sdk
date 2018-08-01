@@ -1,4 +1,4 @@
-package: github.com/cosmos/cosmos-sdk
+package: github.com/ya-enot/cosmos-sdk
 import:
 - package: github.com/gorilla/websocket
 - package: github.com/pkg/errors
@@ -6,30 +6,30 @@ import:
 - package: github.com/spf13/cobra
 - package: github.com/spf13/pflag
 - package: github.com/spf13/viper
-- package: github.com/tendermint/abci
-  version: sdk2
+- package: github.com/ya-enot/abci
+  version: ya-enot-develop
   subpackages:
   - server
   - types
-- package: github.com/tendermint/go-crypto
-  version: develop
+- package: github.com/ya-enot/go-crypto
+  version: ya-enot-develop
   subpackages:
   - keys
-- package: github.com/tendermint/go-wire
-  version: sdk2
+- package: github.com/ya-enot/go-wire
+  version: ya-enot-develop
   subpackages:
   - data
-- package: github.com/tendermint/light-client
-  version: develop
+- package: github.com/ya-enot/light-client
+  version: ya-enot-develop
   subpackages:
   - proofs
   - certifiers
   - certifiers/client
   - certifiers/files
-- package: github.com/tendermint/iavl
-  version: sdk2
-- package: github.com/tendermint/tendermint
-  version: sdk2
+- package: github.com/ya-enot/iavl
+  version: ya-enot-develop
+- package: github.com/ya-enot/tendermint
+  version: ya-enot-develop
   subpackages:
   - config
   - node
@@ -39,8 +39,8 @@ import:
   - rpc/lib/client
   - rpc/lib/types
   - types
-- package: github.com/tendermint/tmlibs
-  version: sdk2
+- package: github.com/ya-enot/tmlibs
+  version: ya-enot-develop
   subpackages:
   - cli
   - cli/flags

@@ -7,11 +7,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
-	abci "github.com/tendermint/abci/types"
-	cmn "github.com/tendermint/tmlibs/common"
-	"github.com/tendermint/tmlibs/log"
+	abci "github.com/ya-enot/abci/types"
+	cmn "github.com/ya-enot/tmlibs/common"
+	"github.com/ya-enot/tmlibs/log"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/ya-enot/cosmos-sdk/types"
 )
 
 var mainHeaderKey = []byte("header")
